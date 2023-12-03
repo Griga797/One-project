@@ -17,6 +17,7 @@ body{
   font-style: normal;
   border: 1px solid black;
   background-color: aquamarine;
+  font-family: 'Raleway';
   
 }
 
@@ -314,7 +315,7 @@ background-size: cover;
   display: flex;
   flex-direction: column;
   width: auto;
-  text-align: center;
+  text-align: center; 
 }
 
 .footer__menu-list-item{
