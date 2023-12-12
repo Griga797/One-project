@@ -15,33 +15,33 @@ body{
   font-style: normal; 
 }
 
-.header_menu {
+.header__menu {
   justify-self: start;
   align-self: center;
 }
 
-.header_links-list{
+.header__links-list{
   display: flex;
   gap: 32px;
 }
 
-.header_link-list-item {
+.header__link-list-item {
 list-style: circle;
 }
 
-.header_link {
+.header__link {
   text-underline-position: under;
 }
 
-.header_link-list-item_no-bullit{
+.header__link-list-item_no-bullit{
 list-style: none;
 }
 
-.header_link_active{
+.header__link_active{
   text-decoration: none;
 }
 
-.header_logo {
+.header__logo {
   display: block;
   justify-self: center;
   align-self: center;
@@ -50,11 +50,11 @@ list-style: none;
   margin: 0 50px;
 }
 
-.header_logo-image {
+.header__logo-image {
   width: inherit;
   height: inherit;
 }
-.header_address {
+.header__address {
   display: grid;
   justify-items: start;
   justify-content: end;
@@ -73,7 +73,7 @@ list-style: none;
 
 .cover {
   position: relative;
-  background: url(/img/cover.jpg)  center/cover;
+  background: url(../img/cover.jpg)  center/cover;
   color: #fff;
   height: 757px;
   z-index: 0;
@@ -91,7 +91,7 @@ list-style: none;
   padding: 165px 50px 2px 50px;
 }
 
-.cover_description {
+.cover__description {
   margin-top: 120px;
   display: flex;
   flex-direction: row;
@@ -100,7 +100,7 @@ list-style: none;
   font-weight: 400;
 }
 
-.cover_description-text {
+.cover__description-text {
   font-size: 22px;
   line-height: 28px;
   text-align: end;
